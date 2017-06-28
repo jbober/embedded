@@ -1,0 +1,15 @@
+[binaries]
+c = '/usr/bin/arm-none-eabi-gcc'
+cpp = '/usr/bin/arm-none-eabi-g++'
+ar = '/usr/bin/arm-none-eabi-ar'
+strip = '/usr/bin/arm-none-eabi-strip'
+[build_machine]
+system = 'linux'
+cpu_family = 'x86'
+cpu = 'i686'
+endian = 'little'
+[host_machine]
+system = 'bare'
+cpu_family = 'arm'
+cpu = 'armv4'
+endian = 'little'
